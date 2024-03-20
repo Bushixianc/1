@@ -1,0 +1,71 @@
+     ========================================    数据解析    ============================================================
+    name：电影天堂提取目标网址
+    url：https://www.dygod.net/
+    使用技术：正则表达式
+
+    name：猪八戒网提取目标内容
+    url：https://www.zbj.com/fw/?k=saas
+    使用技术：Xpath解析
+
+    name：优美图库提取图片下载链接
+    url：http://www.umeituku.com/bizhitupian/xiaoqingxinbizhi/
+    使用技术：BeautifulSoup
+     =======================================  多线程及数据库  ============================================================
+
+    name：全景图片网  批量下载图片
+    url:http://panorama.cn/tupian/tiankong.html
+    使用技术：线程池 Xpath解析
+
+    name：轩宇阅读网 抓取一部小说的全部内容并存入数据库中
+    url：https://www.xyyuedu.com/writer/nanpaisanshu/canghaihua/index.html
+    使用技术：异步协程 MongoDB数据库  Redis数据库 Xpath解析
+
+    name：影爱看电影网 抓取一部完整电影
+    url：https://inkandy.com/vodplay/110244-11-1.html
+    使用技术：异步协程 文件批量解密 正则表达式
+
+  =========================================  Selenium自动化  ==========================================================
+
+    name：拉钩网  抓取目标内容
+    url：https://www.lagou.com/
+    使用技术：Selenium自动化 Xpath
+
+    name：古诗文网 自动化登录
+    url：https://www.gushiwen.cn/
+    使用技术：Selenium自动化  图片验证码识别 Xpath解析
+
+ =========================================    Scrapy框架    =============================================================
+
+    name：段子星  抓取目标内容
+    url：http://duanzixing.com
+    使用技术：Scrapy框架 MySQl MongDB  Xpath解析
+
+=========================================      JS逆向       ==============================================================
+
+    name:全国招标公示搜索引擎
+    url:https://ctbpsp.com/cutominfoapi/recommand/type/5/pagesize/10/currentpage/2
+    加密方式:des
+    逆向参数:返回值
+
+
+    name:中大网校登录
+    url：https://user.wangxiao.cn/login?url=https%3A%2F%2Fwww.wangxiao.cn%2F
+    加密方式：rsa(方式1)
+    逆向参数：登录密码
+
+
+    name:当乐网登录
+    url：https://oauth.d.cn/auth/goLogin.html
+    加密方式：rsa(方式2)
+    逆向参数：登录密码
+
+
+    name:网易云音乐 用于提取音乐下载链接
+    url：https://music.163.com/#/song?id=2132747446
+    加密方式：aes+rsa
+    逆向参数:点击播放的返回值
+
+=========================================      IP代理       =============================================================
+    name：ip代理池的构建
+    url：http://httpbin.org/ip
+    使用技术：Redis数据库 Flask框架 异步协程  Xpath解析
