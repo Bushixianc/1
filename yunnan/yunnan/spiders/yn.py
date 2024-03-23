@@ -86,7 +86,7 @@ class YnSpider(scrapy.Spider):
         elif "Zbgg" in url:
             biaoti = a["value"]["bulletinname"]
             shijian = a["value"]["bulletinissuetime"]
-            content = a["value"]["bulletinname"]
+            content = a["value"]["bulletincontent"]
             guid = a["value"]["guid"]
             leix = "15"
         elif "Pbbg" in url:
